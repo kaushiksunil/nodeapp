@@ -8,7 +8,6 @@ var port = process.env.PORT || 3000;
 app.listen(port);
 
 
-
 var connection = mysql.createConnection({
    host:'',
    user:'root',
